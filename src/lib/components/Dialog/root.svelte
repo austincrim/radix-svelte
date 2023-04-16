@@ -29,7 +29,7 @@
 	type $$Props = DialogRootProps;
 
 	export let open: $$Props['open'] = false;
-	export let modal: $$Props['modal'] = false;
+	export let modal: $$Props['modal'] = true;
 	export let openAutoFocus: $$Props['openAutoFocus'] = true;
 	export let closeAutoFocus: $$Props['closeAutoFocus'] = true;
 
